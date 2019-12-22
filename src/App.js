@@ -5,11 +5,14 @@ import NewsBox from "./NewsBox";
 import CalendarBox from "./CalendarBox";
 import TickerBox from "./TickerBox";
 import GraphBox from "./GraphBox";
+
 import QuoteDay from "./QuoteDay";
+
 
 export default function App() {
   return (
     <div>
+
       <div className="flex-grid-head">
         <header>
           <h3>K</h3>
@@ -28,6 +31,8 @@ export default function App() {
         <CalendarBox />
         <TickerBox />
       </div>
+      
+
     </div>
   );
 }
