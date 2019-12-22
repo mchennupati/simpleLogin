@@ -1,4 +1,43 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+.header {
+  width: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  align-items: center;
+}
+.userAccount {
+  border: solid blue 2px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.flex-grid {
+  display: flex;
+  justify-content: space-between;
+  font: Charter;
+}
+.tickerForm {
+  border: solid blue 2px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+}
+input[type="text"] {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  box-align: center;
+  font: Lucida;
+  font-weight: 500;
+}
+.tickerBox {
+  border: solid blue 2px;
+}
+
+.calendarBox {
+  border: solid blue 2px;
+}
+
+.newsBox {
+  border: solid blue 2px;
+  flex: 1;
 }
