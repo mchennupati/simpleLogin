@@ -5,7 +5,8 @@ export default function TickerForm() {
     <div className="tickerForm">
       <input
 
-        class="mainSearch"
+        className="mainSearch"
+
         type="text"
         placeholder="Argentina 100y Bond or US CPI or AAPL..."
         
