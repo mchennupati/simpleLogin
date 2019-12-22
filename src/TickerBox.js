@@ -3,7 +3,7 @@ import React from "react";
 export default function TickerBox() {
   return (
     <div className="tickerBox">
-      <h2>This is a set of Tickers</h2>
+      {/* <h2>This is a set of Tickers</h2> */}
       <table>
         <tr>
           <th>date</th>

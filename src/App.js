@@ -6,20 +6,33 @@ import CalendarBox from "./CalendarBox";
 import TickerBox from "./TickerBox";
 import GraphBox from "./GraphBox";
 
+import QuoteDay from "./QuoteDay";
+
+
 export default function App() {
   return (
     <div>
-      <header>
-        <h3>Konudu</h3>
-      </header>
-      <UserAccount />
-      <TickerForm />
+
+      <div className="flex-grid-head">
+        <header>
+          <h3>K</h3>
+        </header>
+        <UserAccount />
+      </div>
+
+      <div className="searchQuote">
+        <TickerForm />
+        <QuoteDay />
+      </div>
+
       <GraphBox />
-      <div className="flex-grid">
+      <NewsBox />
+      <div className="flex-grid-body">
         <CalendarBox />
         <TickerBox />
       </div>
-      <NewsBox />
+      
+
     </div>
   );
 }

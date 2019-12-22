@@ -3,7 +3,9 @@ import React from "react";
 export default function NewsBox() {
   return (
     <div className="newsBox">
-      <h3>This is a NewsBox</h3>
+
+      {/* <h3>This is a NewsBox</h3> */}
+
       <list>
         <ul>11111111111111</ul>
         <ul>22222222222222</ul>
